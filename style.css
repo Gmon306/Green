@@ -1,0 +1,35 @@
+.landingpage{
+    background-color:rgb(15, 14, 16)
+}
+
+
+
+p{ 
+    border: 5px solid brown;
+   margin: 20px;
+   padding: 10px; 
+   font-size: 25px;
+}
+.navigation{ 
+    display: flex;
+    background-color: blue;
+    overflow-x: scroll;
+}
+
+.navigation::-webkit-scrollbar{
+    display: none;
+}
+.navigation > li {
+
+    color: blanchedalmond;
+    margin-right: 10px;
+    list-style: none;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.navigation  > li:hover {
+    background-color: gold;
+}
+
